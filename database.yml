@@ -1,0 +1,8 @@
+users:
+    Elvire: {username: Elvire, articleIds: [1], commentIds: [1]}
+articles:
+    '1': {id: 1, title: TEST, url: test.com, username: Elvire, commentIds: [1], upvotedBy: [Elvire], downvotedBy: [], comments: [{id: 1, body: Test, username: Elvire, articleId: 1, upvotedBy: [], downvotedBy: [Elvire]}]}
+comments:
+    '1': {id: 1, body: Test, username: Elvire, articleId: 1, upvotedBy: [], downvotedBy: [Elvire]}
+nextArticleId: 2
+nextCommentId: 2
